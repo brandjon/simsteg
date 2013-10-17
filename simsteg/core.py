@@ -4,13 +4,8 @@
 # Modified: 08/17/12                                                          #
 ###############################################################################
 
-# PIL is required.
-try:
-    import Image
-except ImportError:
-    import sys
-    sys.stderr.write('Error importing Python Imaging Library\n')
-    raise
+# Note that this is Pillow, not PIL.
+from PIL import Image
 
 # Verbose file I/O.
 VERBOSE = True
