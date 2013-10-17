@@ -4,7 +4,7 @@
 # Modified: 08/17/12                                                          #
 ###############################################################################
 
-# TO USE: Place a bitmap named "in.bmp"in the image/ directory.
+# TO USE: Place a bitmap named "in.bmp" in the image/ directory.
 #         Uncomment one or more of the processing lines below
 #         and use different values for the val variable to control
 #         how the image is distorted. Output is written to

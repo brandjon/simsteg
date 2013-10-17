@@ -6,7 +6,7 @@
 
 # PIL is required.
 try:
-    import Image
+    from PIL import Image
 except ImportError:
     import sys
     sys.stderr.write('Error importing Python Imaging Library\n')
