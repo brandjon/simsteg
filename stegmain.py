@@ -16,9 +16,9 @@
 #         the more the secret will "leak through" the carrier.
 
 
-from steg import do_hide, do_unhide, xor
-from shader import apply_shader2, make_shader2
-from core import load_image_data, save_image_data
+from simsteg.steg import do_hide, do_unhide, xor
+from simsteg.shader import apply_shader2, make_shader2
+from simsteg.core import load_image_data, save_image_data
 
 
 prefix = '../steg/'

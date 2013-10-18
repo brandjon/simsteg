@@ -11,13 +11,13 @@
 #         the intshader's output value versus the input intensity. 
 
 
-from core import load_image_data, save_image_data
-from shader import apply_shader, make_shader, plot_intshader
-from sample_shaders import *
-from imageproc import *
+from simsteg.core import load_image_data, save_image_data
+from simsteg.shader import apply_shader, make_shader, plot_intshader
+from simsteg.sample_shaders import *
+from simsteg.imageproc import *
 
 
-prefix = '../image/'
+prefix = 'image/'
 
 
 data = load_image_data(prefix + 'in.bmp')
