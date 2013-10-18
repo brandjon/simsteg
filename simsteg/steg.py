@@ -1,8 +1,5 @@
-###############################################################################
-# steg.py: Steganography routines.                                            #
-# Author: Jon Brandvein                                                       #
-# Modified: 08/17/12                                                          #
-###############################################################################
+# steg.py: Steganography routines.
+
 
 from core import VERBOSE, load_image_data, save_image_data
 from shader import make_shader, make_shader2

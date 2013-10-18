@@ -1,8 +1,5 @@
-###############################################################################
-# main.py: Main file for running image transformations.                       #
-# Author: Jon Brandvein                                                       #
-# Modified: 08/17/12                                                          #
-###############################################################################
+# main.py: Main file for running image transformations.
+
 
 # TO USE: Place a bitmap named "in.bmp" in the image/ directory.
 #         Uncomment one or more of the processing lines below

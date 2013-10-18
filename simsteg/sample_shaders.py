@@ -1,8 +1,4 @@
-###############################################################################
-# sample_shaders.py: Example pixel and intensity shaders.                     #
-# Author: Jon Brandvein                                                       #
-# Modified: 08/17/12                                                          #
-###############################################################################
+# sample_shaders.py: Example pixel and intensity shaders.
 
 
 from shader import make_shader 

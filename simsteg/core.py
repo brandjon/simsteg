@@ -1,8 +1,5 @@
-###############################################################################
-# core.py: Image representation, I/O, interface with PIL.                     #
-# Author: Jon Brandvein                                                       #
-# Modified: 08/17/12                                                          #
-###############################################################################
+# core.py: Image representation, I/O, interface with Pillow.
+
 
 # Note that this is Pillow, not PIL.
 from PIL import Image

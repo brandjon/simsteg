@@ -1,8 +1,4 @@
-###############################################################################
-# imageproc.py: Image processors that are more complex than shaders.          #
-# Author: Jon Brandvein                                                       #
-# Modified: 08/17/12                                                          #
-###############################################################################
+# imageproc.py: Image processors that are more complex than shaders.
 
 
 def blur(data, radius):

@@ -1,8 +1,5 @@
-###############################################################################
-# shader.py: Image shader framework                                           #
-# Author: Jon Brandvein                                                       #
-# Modified: 08/17/12                                                          #
-###############################################################################
+# shader.py: Image shader framework.
+
 
 # I'm borrowing (abusing) the terminology "shader" from graphics
 # hardware. I use "shader" to refer to a function that takes in a pixel

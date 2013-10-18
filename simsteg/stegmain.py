@@ -1,8 +1,5 @@
-###############################################################################
-# stegmain.py: Main file for running steganography.                           #
-# Author: Jon Brandvein                                                       #
-# Modified: 08/19/12                                                          #
-###############################################################################
+# stegmain.py: Main file for running steganography.
+
 
 # TO USE: Place two bitmap images of equal dimension in the steg/
 #         directory, named "carrier.bmp" and "secret.bmp". Uncomment
