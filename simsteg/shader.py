@@ -85,14 +85,7 @@ def plot_intshader(intshader, *args):
     output for its entire domain.
     """
     
-    try:
-        import matplotlib.pyplot as plt
-    except ImportError:
-        from sys import stderr
-        from traceback import print_exc
-        stderr.write('Could not import matplotlib.pyplot\n')
-        stderr.write(print_exc())
-        return
+    import matplotlib.pyplot as plt
     
     xs = range(0, 255)
     plt.plot(xs, [x for x in xs], ':')
