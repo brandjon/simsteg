@@ -2,9 +2,10 @@ import unittest
 
 import simsteg.shader as shader
 
+
 class ClampCase(unittest.TestCase):
     
-    """Test shader framework."""
+    """Test clamping of values to valid range."""
     
     def test_clamp8(self):
         clamp8 = shader.clamp8
@@ -17,6 +18,8 @@ class ClampCase(unittest.TestCase):
                          (255, 0, 21))
 
 class ShaderCase(unittest.TestCase):
+    
+    """Test creation and application of shaders."""
     
     def setUp(self):
         self.data = [[(1, 2, 3), (4, 5, 6)],

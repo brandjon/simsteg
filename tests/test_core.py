@@ -2,6 +2,7 @@ import unittest
 
 from simsteg.core import dataify, stringify, load_image_data, save_image_data
 
+
 class FormatCase(unittest.TestCase):
     
     """Test conversion to/from internal format."""
