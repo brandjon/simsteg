@@ -29,7 +29,7 @@ def int_addnoise(v, k):
     mask = ~(2**k - 1)
     return (v & mask) | getrandbits(k)
 
-def int_invert(v, k):
+def int_invert(v):
     return 255 - v
 
 

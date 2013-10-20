@@ -40,7 +40,7 @@ val = 1
 # apply_shader(data, random_grey)
 # apply_shader(data, random_color)
 # apply_shader(data, swap_colors)
-# apply_shader(data, invert, val)
+# apply_shader(data, invert)
 
 # blur(data, val)
 # pixelate(data, val)
